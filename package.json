@@ -1,0 +1,20 @@
+{
+  "name": "Panel Adminsitracion",
+  "version": "1.0.0",
+  "description": "Carrito de compras con SASS y Flexbox",
+  "main": "gulpfile.js",
+  "scripts": {
+    "watch": "node gulpfile.js"
+  },
+  "author": "Alejandro Montes de Oca",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^3.2.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
