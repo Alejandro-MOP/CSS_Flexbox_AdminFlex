@@ -29,6 +29,13 @@ img {
     flex-direction: column;
 }
 
+.no-menu.pagina{
+
+    .sidebar{
+        margin-left: -20rem;
+    }
+}
+
 .header {
     display: flex;
 
@@ -75,6 +82,15 @@ img {
         display: flex;
         align-items: center;
         padding: 1rem;
+
+        i {
+            color: $blanco;
+            font-size: 1.4rem;
+        }
+
+        .fa-arrow-right{
+            display: none;
+        }
     }
 
     .menu-der{
@@ -113,6 +129,7 @@ img {
     flex: 0 0 20rem;
     padding: 1rem;
     color: $blanco;
+    transition: margin-left .45s ease;
 
     .usuario {
         display: flex;
